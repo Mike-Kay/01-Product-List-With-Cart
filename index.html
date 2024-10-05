@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+  </head>
+  <body>
+    <main class="main section">
+      <!-- Products -->
+      <section class="products section-center">
+        <div class="product-items-container">
+          <div class="title">
+            <h1>desserts</h1>
+            <span></span>
+          </div>
+          <!-- Product items -->
+          <div class="product-items"></div>
+        </div>
+
+        <!-- Cart -->
+        <div class="cart section-center">
+          <div class="cart-container">
+            <!-- header -->
+            <header class="cart-header">
+              <h2>your cart <span class="cart-item-count">1</span></h2>
+            </header>
+
+            <!-- Cart items -->
+            <div class="cart-items"></div>
+
+            <!-- Cart footer -->
+            <footer class="cart-footer">
+              <div class="order-total">
+                <span>order total</span>
+                <h3>$10.00</h3>
+              </div>
+
+              <div class="carbon-neutral">
+                <img src="./assets/images/icon-carbon-neutral.svg" alt="" />
+                <p>This is a <span>carbon-neutral</span> delivery</p>
+              </div>
+
+              <button type="button" class="order-btn confirm-order-btn btn">
+                confirm order
+              </button>
+            </footer>
+
+            <!-- Empty Cart -->
+            <div class="empty-cart">
+              <img
+                src="./assets/images/illustration-empty-cart.svg"
+                alt=""
+                class="empty-cart-img"
+              />
+              <p class="empty-cart-text">Your added items will appear here</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Page Footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="main-link">
+          <h4>
+            product list with cart challenge by
+            <a
+              href="https://www.frontendmentor.io/"
+              class="footer-link"
+              target="_blank"
+            >
+              frontend mentor
+            </a>
+          </h4>
+          <h4>
+            built by
+            <a
+              href="https://github.com/Mike-Kay"
+              class="footer-link"
+              target="_blank"
+            >
+              <span>&diamond;</span> mike-kay
+            </a>
+          </h4>
+        </div>
+
+        <a href=" https://wa.me/8161767939" class="contact-me" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>contact me</span>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Confirmation modal -->
+    <section class="confirmation-modal">
+      <div class="">
+        <header>
+          <img
+            src="./assets/images/icon-order-confirmed.svg"
+            alt=""
+            class="confirmation-img"
+          />
+          <h2>order confirmed</h2>
+          <p>We hope you enjoy your food</p>
+        </header>
+
+        <div class="ordered-items-container">
+          <div class="ordered-items"></div>
+          <div class="order-total">
+            <span>order total</span>
+            <h3>$10.00</h3>
+          </div>
+        </div>
+
+        <button type="button" class="order-btn new-order-btn btn">
+          start new order
+        </button>
+      </div>
+    </section>
+
+    <!-- Page Loading -->
+    <div class="page-loading">
+      <div class="loading"></div>
+    </div>
+    <!-- Alert -->
+    <p class="alert"></p>
+
+    <!-- JS -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
