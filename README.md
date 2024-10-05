@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-product-list-with-cart-ukgXTeSNMl)
+- Live Site URL: [Add live site URL here](https://01-product-list-with-cart.netlify.app/)
 
 ## My process
 
@@ -61,8 +61,8 @@ Working with SVGs to create and style icons is something i never realised until 
 ## Author
 
 - Frontend Mentor - [@Mike-Kay](https://www.frontendmentor.io/profile/Mike-Kay)
-- Twitter - [@yourusername](https://www.twitter.com/@Mike_Kay1)
+- Twitter - [@Mike_Kay1](https://www.twitter.com/@Mike_Kay1)
 
 ## Acknowledgments
 
-Hats off to my instructor John Smilga - (https://github.com/john-smilga), his JS course on Udemy - (https://www.udemy.com/user/janis-smilga-3/?kw=john+smilga&src=sac) really made it easier for me to build this project
+Hats off to my instructor John Smilga - (https://github.com/john-smilga), his JS course on Udemy - (https://www.udemy.com/user/janis-smilga-3/?kw=john+smilga&src=sac) really made it easier for me to build this project.
