@@ -35,7 +35,7 @@ const displayProducts = (products, container) => {
               <!-- product footer -->
               <footer class="product-footer">
                 <p class="product-category">${category}</p>
-                <h3 class="product-name">${name}</h3>
+                <h2 class="product-name">${name}</h2>
                 <p class="product-price">$${price}</p>
               </footer>
             </article>
